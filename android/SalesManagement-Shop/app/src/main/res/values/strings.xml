@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sales Management - Shop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_string"></string>
+    <string name="title_activity_registration_form">Register your mobile</string>
+    <string name="title_activity_mobile_number_confirmation">Confirm phone number</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="title_activity_sub_category">Sub-category</string>
+    <string name="title_activity_bonus">Bonus</string>
+    <string name="title_activity_account_details">Account Information</string>
+    <string name="title_activity_product_list">Products List</string>
+    <string name="title_activity_show_product">Product Title</string>
+    <string name="title_activity_full_screen_image_view">Product Images</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_offer">Offer</string>
+    <string name="title_activity_show_news">News</string>
+    <string name="title_activity_show_offer">Offer title here</string>
+    <string name="title_activity_complaint">Complaints</string>
+    <string name="title_activity_all_complaint">All Complaints</string>
+    <string name="title_activity_textual_complaint">Submit a complaint</string>
+    <string name="title_activity_show_complaint">Complaint</string>
+    <string name="title_activity_photo_complaint">Submit with photo</string>
+    <string name="title_activity_shop">Select a shop</string>
+    <string name="title_activity_select_product">Select product</string>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="title_activity_order_information">Orders</string>
+    <string name="title_activity_order_description">Order details</string>
+    <string name="title_activity_bill_information">Bills</string>
+    <string name="title_activity_bill_description">Bill details</string>
+    <string name="title_activity_activity_log">Activity Log</string>
+    <string name="title_activity_quick_order">Quick Order</string>
+
+</resources>

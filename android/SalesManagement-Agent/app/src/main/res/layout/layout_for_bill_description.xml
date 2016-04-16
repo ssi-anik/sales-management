@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/productNameForBillDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="3dp"
+        android:text="Product name"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/productPriceForBillDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/productNameForBillDescription"
+        android:layout_marginBottom="3dp"
+        android:text="Price"/>
+
+    <TextView
+        android:id="@+id/productTaxForBillDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/productNameForBillDescription"
+        android:layout_marginBottom="3dp"
+        android:gravity="right"
+        android:text="Tax"/>
+
+    <TextView
+        android:id="@+id/productQuantityForBillDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/productPriceForBillDescription"
+        android:layout_marginBottom="3dp"
+        android:gravity="left"
+        android:text="Quantity"/>
+
+    <TextView
+        android:id="@+id/totalPriceForBillDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/productPriceForBillDescription"
+        android:layout_marginBottom="3dp"
+        android:gravity="right"
+        android:text="Total price"/>
+
+</RelativeLayout>

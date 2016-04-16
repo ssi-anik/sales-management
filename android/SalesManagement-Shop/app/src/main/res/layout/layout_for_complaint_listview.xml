@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/complaintTitleForListView"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:text="Complaint Title"/>
+
+    <TextView
+        android:id="@+id/complaintIdForListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/complaintTitleForListView"
+        android:layout_marginBottom="5dp"
+        android:text="Complaint id"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/complaintTrackingNumberForListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/complaintTitleForListView"
+        android:layout_marginBottom="5dp"
+        android:text="Complaint tracking number"
+        android:visibility="gone"/>
+</RelativeLayout>

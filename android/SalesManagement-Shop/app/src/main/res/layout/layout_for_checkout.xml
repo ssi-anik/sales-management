@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/productNameForCheckout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="3dp"
+        android:text="Product name"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/productTotalTaxForCheckout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/productNameForCheckout"
+        android:text="Product total tax"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/productQuantityForCheckout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/productTotalTaxForCheckout"
+        android:layout_marginBottom="3dp"
+        android:gravity="left"
+        android:text="Quantity"/>
+
+    <TextView
+        android:id="@+id/totalPriceForCheckout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/productTotalTaxForCheckout"
+        android:layout_marginBottom="3dp"
+        android:gravity="right"
+        android:text="Total price"/>
+
+    <TextView
+        android:id="@+id/productUniqueIdForCheckout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/productQuantityForCheckout"
+        android:text="Product unique id"
+        android:visibility="gone"/>
+</RelativeLayout>

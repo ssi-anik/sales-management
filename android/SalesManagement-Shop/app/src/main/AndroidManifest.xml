@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anik.shop" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".helpers.AppStorage"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrationFormActivity"
+            android:label="@string/title_activity_registration_form" >
+        </activity>
+        <activity
+            android:name=".MobileNumberConfirmationActivity"
+            android:label="@string/title_activity_mobile_number_confirmation" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".CategoryListActivity"
+            android:label="@string/title_activity_category"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".SubCategoryListActivity"
+            android:label="@string/title_activity_sub_category"
+            android:parentActivityName=".CategoryListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.CategoryListActivity" />
+        </activity>
+        <activity
+            android:name=".BonusActivity"
+            android:label="@string/title_activity_bonus"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".AccountDetailsActivity"
+            android:label="@string/title_activity_account_details"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".ProductListActivity"
+            android:label="@string/title_activity_product_list"
+            android:parentActivityName=".SubCategoryListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.SubCategoryListActivity" />
+        </activity>
+        <activity
+            android:name=".ShowProduct"
+            android:label="@string/title_activity_show_product"
+            android:parentActivityName=".SubCategoryListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.SubCategoryListActivity" />
+        </activity>
+        <activity
+            android:name=".FullScreenImageViewActivity"
+            android:label="@string/title_activity_full_screen_image_view"
+            android:parentActivityName=".ShowProduct"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.ShowProduct" />
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".OfferActivity"
+            android:label="@string/title_activity_offer"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".ShowNews"
+            android:label="@string/title_activity_show_news"
+            android:parentActivityName=".NewsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.NewsActivity" />
+        </activity>
+        <activity
+            android:name=".ShowOffer"
+            android:label="@string/title_activity_show_offer"
+            android:parentActivityName=".OfferActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.OfferActivity" />
+        </activity>
+        <activity
+            android:name=".ComplaintActivity"
+            android:label="@string/title_activity_complaint"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".AllComplaintActivity"
+            android:label="@string/title_activity_all_complaint"
+            android:parentActivityName=".ComplaintActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.ComplaintActivity" />
+        </activity>
+        <activity
+            android:name=".TextualComplaintActivity"
+            android:label="@string/title_activity_textual_complaint"
+            android:parentActivityName=".ComplaintActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.ComplaintActivity" />
+        </activity>
+        <activity
+            android:name=".ShowComplaint"
+            android:label="@string/title_activity_show_complaint"
+            android:parentActivityName=".AllComplaintActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.AllComplaintActivity" />
+        </activity>
+        <activity
+            android:name=".PhotoComplaintActivity"
+            android:label="@string/title_activity_photo_complaint"
+            android:parentActivityName=".ComplaintActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.ComplaintActivity" />
+        </activity>
+        <activity
+            android:name=".ShopActivity"
+            android:label="@string/title_activity_shop"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".SelectProductActivity"
+            android:label="@string/title_activity_select_product"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".CheckoutActivity"
+            android:label="@string/title_activity_checkout"
+            android:parentActivityName=".SelectProductActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.SelectProductActivity" />
+        </activity>
+        <activity
+            android:name=".OrderListActivity"
+            android:label="@string/title_activity_order_information"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".OrderDescriptionActivity"
+            android:label="@string/title_activity_order_description"
+            android:parentActivityName=".OrderListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.OrderListActivity" />
+        </activity>
+        <activity
+            android:name=".BillListActivity"
+            android:label="@string/title_activity_bill_information"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".BillDescriptionActivity"
+            android:label="@string/title_activity_bill_description"
+            android:parentActivityName=".BillListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.BillListActivity" />
+        </activity>
+        <activity
+            android:name=".ActivityLogActivity"
+            android:label="@string/title_activity_activity_log"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+        <activity
+            android:name=".QuickOrderActivity"
+            android:label="@string/title_activity_quick_order"
+            android:parentActivityName=".MenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.anik.shop.MenuActivity" />
+        </activity>
+
+        <service android:name=".services.AppServices" />
+
+        <receiver
+            android:name=".broadcastListener.OrderBroadcastListener"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.Order" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcastListener.TextualComplaintBroadcastListener"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.TextualComplaint" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcastListener.PhotoComplaintBroadcastListener"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.PhotoComplaint" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcastListener.BillBroadcastListener"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.Bill" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcastListener.LocationTrackerBroadcastListener"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.Location" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcastListener.QuickOrderBroadcastListener"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.Quick" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcastListener.UserInformationBroadcastListener"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.UserInformation" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".broadcastListener.ProductJSONBroadcastListener"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.anik.broadcast.ProductJSONBroadcastListener" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swiftlanguage>
+    <title>English (U.S.)</title>
+    <isocode>en-us</isocode>
+    <author>Nusoft</author>
+    <charset>UTF-8</charset>
+    <textdirection>LTR</textdirection>
+    <version>0</version>
+
+    <!-- Outgoing Mail Queue Settings -->
+    <phrase section="default" code="html_encoding">quoted-printable</phrase>
+    <phrase section="default" code="text_encoding">8bit</phrase>
+    <phrase section="default" code="html_charset">UTF-8</phrase>
+    <phrase section="default" code="text_charset">UTF-8</phrase>
+
+    <phrase section="default" code="poweredbytitle">Nusoft %s Help Desk Software</phrase>
+    <phrase section="default" code="poweredby">by Nusoft %s v%s</phrase>
+    <phrase section="default" code="linkback">Help Desk Software</phrase>
+    <phrase section="default" code="copyright"><![CDATA[Copyright &copy; 2001-%s Nusoft Ltd.]]></phrase>
+    <phrase section="default" code="module_notreg">%s module is not registered</phrase>
+    <phrase section="default" code="event_notreg">%s event is not registered</phrase>
+    <phrase section="default" code="unable_to_execute">Unable to execute %s</phrase>
+    <phrase section="default" code="action_notreg">%s action is not registered</phrase>
+    <phrase section="default" code="requiredfieldempty">One of the required field(s) is empty</phrase> 
+    <phrase section="default" code="perminvalid">ERROR: You need to log in before you can view this page. Please log in using your e-mail address and password.</phrase>
+    
+    <phrase section="default" code="appname">Billing Application</phrase>
+    <phrase section="default" code="home"> Home</phrase>
+    <phrase section="default" code="login_msg">Please Sign in</phrase>
+    <phrase section="default" code="forgetpassword">Forget Password</phrase>
+    <phrase section="default" code="forgetusername">Forget Username</phrase>
+    <phrase section="default" code="signin"> Sign in</phrase>
+    <phrase section="default" code="loginusername">Username:</phrase>
+    <phrase section="default" code="loginpassword">Password:</phrase>
+    <phrase section="default" code="email">Enter E-Mail</phrase>
+    <phrase section="default" code="loginerror">Invalid username or password</phrase>
+    <phrase section="default" code="loginsuccess">Logged in successfully</phrase>
+    <phrase section="default" code="logout">[Sign Out]</phrase>
+    <phrase section="default" code="loggedinas"><![CDATA[Logged In:&nbsp]]></phrase>
+    <phrase section="default" code="cmemail">E-mail Address: (optional)</phrase>
+    <phrase section="default" code="whmcssupport">Support</phrase>
+    <phrase section="default" code="whmcsclientarea">Client Area</phrase>
+    <phrase section="default" code="whmcssupporttickets">Support Tickets</phrase>
+
+    <!-- default Menu -->
+
+    <phrase section="default" code="myaccount">My Account</phrase>
+
+    <phrase section="index" code="populartrcat">Popular Troubleshooter Categories</phrase>
+    <phrase section="index" code="trviews">Views</phrase>
+    <phrase section="index" code="latestnews">Latest News</phrase>
+    <phrase section="index" code="popularfiles">Popular Files</phrase>
+    <phrase section="index" code="totdownloads">Downloads</phrase>
+    <phrase section="index" code="latestfiles">Latest Download Files</phrase>
+    <phrase section="index" code="dldateadded">Date Added</phrase>
+    <phrase section="index" code="populararticles">Popular Knowledgebase Articles</phrase>
+    <phrase section="index" code="kbviews">Views</phrase>
+    <phrase section="index" code="latestarticles">Latest Knowledgebase Articles</phrase>
+    <phrase section="index" code="kbdate">Date Added</phrase>
+
+    <phrase section="troubleshooter" code="troubleshootercat">Troubleshooter Categories</phrase>
+    <phrase section="troubleshooter" code="troubleshooterdesc">Troubleshooter wizards guide you through a series of steps in order to diagnose and resolve common problems. Begin by choosing a troubleshooter category.</phrase>
+    <phrase section="troubleshooter" code="tsback"><![CDATA[&lt; Back]]></phrase>
+    <phrase section="troubleshooter" code="tsnext"><![CDATA[Next &gt;]]></phrase>
+    <phrase section="troubleshooter" code="tsstartover">Start Over</phrase>
+    <phrase section="troubleshooter" code="invalidtroubleshootercat">Invalid Troubleshooter Category</phrase>
+    <phrase section="troubleshooter" code="invalidtroubleshooter">Invalid Troubleshooter Step</phrase>
+    <phrase section="troubleshooter" code="tscategorylist">Category List</phrase>
+
+    <phrase section="misc" code="registerlostpw">Register / Lost Password</phrase>
+    <phrase section="misc" code="register">Register</phrase>
+    <phrase section="misc" code="registerdesc">Complete the form below to create a new account.</phrase>
+    <phrase section="misc" code="reglostpassword">Lost Password</phrase>
+    <phrase section="misc" code="reglostpassworddesc">Please enter your e-mail address to retrieve your password. We will send an e-mail to this address with further instructions.</phrase>
+    <phrase section="misc" code="regfullname">Full Name: </phrase>
+    <phrase section="misc" code="regemail">E-mail: </phrase>
+    <phrase section="misc" code="regpassword">Password: </phrase>
+    <phrase section="misc" code="regpasswordagain">Password (repeat): </phrase>
+    <phrase section="misc" code="regverifyregistration">Verify Registration</phrase>
+    <phrase section="misc" code="verifyregdesc">Please enter the text you see in the image into the textbox below. This is required to prevent automated registrations.</phrase>
+    <phrase section="misc" code="generalinformation">General Information</phrase>
+    <phrase section="misc" code="passworddontmatch">ERROR: Passwords do not match</phrase>
+    <phrase section="misc" code="invalidverificationcode">ERROR: Invalid Verification Image Code</phrase>
+    <phrase section="misc" code="invalidemail">ERROR: Invalid e-mail address entered</phrase>
+    <phrase section="misc" code="invaliduserhash">ERROR: Invalid hash. Please try to register again.</phrase>
+    <phrase section="misc" code="emailalreadyexists"><![CDATA[ERROR: This e-mail address is already registered. If you have lost your password, please <a href="index.php?_m=core&_a=lostpassword">click here</a> to reset it]]></phrase>
+    <phrase section="misc" code="registrationsuccess">Registration successful</phrase>
+    <phrase section="misc" code="registrationsuccessdesc">Thank you for registering. A copy of your registration details have been sent to your e-mail address. Please use the login form beside this text to log in.</phrase>
+    <phrase section="misc" code="regvalidpending">Validation pending</phrase>
+    <phrase section="misc" code="regvalidpendingdesc">Thank you for registering. We have sent you an e-mail message with an activation link. Please follow the link to verify your address. You must complete this process before you can log in.</phrase>
+    <phrase section="misc" code="regvalidpendingdescman">Thank you for registering. One of our agents will review and approve your account shortly.  You will receive an e-mail message when your account has been activated. You will not be able to log in until this is done.</phrase>
+    <phrase section="misc" code="registrationdetails">Registration details</phrase>
+    <phrase section="misc" code="pwhidden"><![CDATA[ [ Hidden ] ]]></phrase>
+    <phrase section="misc" code="private"><![CDATA[ [ Private ] ]]></phrase>
+    <phrase section="misc" code="validateemailsubject">Registration pending for %s support desk</phrase>
+    <phrase section="misc" code="regsuccessmailsubject">Registration activated for %s support desk</phrase>
+  <phrase section="misc" code="captchagroupbox">Image verification required</phrase>
+  <phrase section="misc" code="captchadesc">Please enter the characters that appear to the right in the space provided.  This is just to verify that you are a human.</phrase>
+  <phrase section="misc" code="badcommentcaptcha">The text you entered for CAPTCHA verification was incorrect. Your comment was not posted.</phrase>
+    
+
+    <phrase section="livesupportclient" code="staffnotacceptedchat">Your message could not be delivered. Please wait for an operator to accept your chat request.</phrase>
+    <phrase section="livesupportclient" code="pleasewaitoperator">Please wait, an operator will be with you shortly.</phrase>
+    <phrase section="livesupportclient" code="peopleaheadinqueue">There are currently %s chat request(s) before you in the chat queue.</phrase>
+    <phrase section="livesupportclient" code="livesupportdescribe">Please enter the required information below to request Live Support.</phrase>
+    <phrase section="livesupportclient" code="alloperatorsbusy">Your request is important to us. Please wait, an operator will be with you shortly.</phrase>
+    <phrase section="livesupportclient" code="messagesentdescribe">Your message has been received. Thank you for contacting us, we will get back to you shortly.</phrase>
+    <phrase section="livesupportclient" code="leavemessagedescribe">Live Support is currently unavailable. Please leave a message below and one of our agents will get back to you shortly.</phrase>
+    <phrase section="livesupportclient" code="emailconvosubject">FW: Chat Conversation</phrase>
+    <phrase section="livesupportclient" code="clientfullname">Client Fullname</phrase>
+    <phrase section="livesupportclient" code="clientemail">Client E-mail</phrase>
+    <phrase section="livesupportclient" code="stafffullname">Staff Fullname</phrase>
+    <phrase section="livesupportclient" code="convodepartment">Department</phrase>
+    <phrase section="livesupportclient" code="convodate">Date</phrase>
+    <phrase section="livesupportclient" code="proactivemsg"><![CDATA[Need assistance? Click &quot;Chat Now&quot; to chat with a live agent.]]></phrase>
+    <phrase section="livesupportclient" code="proactivechatnow">Chat Now</phrase>
+    <phrase section="livesupportclient" code="proactivenothanks">No Thanks!</phrase>
+    <phrase section="livesupportclient" code="visitorpullname">Visitor</phrase>
+    <phrase section="livesupportclient" code="typingmsg">%s is typing...</phrase>
+    <phrase section="livesupportclient" code="chatisalreadyrunning">CANNOT INITIATE CHAT\nYou already have a chat session active. If this error persists, try refreshing this page.</phrase>
+    <phrase section="livesupportclient" code="campaignerror">Invalid Campaign Specified</phrase>
+    <phrase section="livesupportclient" code="adtrackingredirect">Please wait, you are being redirected...</phrase>
+    <phrase section="livesupportclient" code="startviewshare">Unable to open new window. Click here to start the ViewShare session.</phrase>
+    
+    <phrase section="news" code="rsslatestnews">%s - Latest News</phrase>
+    <phrase section="news" code="rsslatestnewsdesc">Latest news provided by %s</phrase>
+
+    <phrase section="knowledgebase" code="catpermerror">You do not have the permissions required to view this category</phrase>
+    <phrase section="knowledgebase" code="kbcat">Knowledgebase Categories</phrase>
+    <phrase section="knowledgebase" code="kbcatdesc">Knowledgebase articles are categorized. Please select which category you would like to browse. You can also search the knowledgebase using the search field beside this text.</phrase>
+    <phrase section="knowledgebase" code="kbmore">more topics</phrase>
+    <phrase section="knowledgebase" code="articles">Articles</phrase>
+  <phrase section="knowledgebase" code="kbrssfeedtip">Click here to view an RSS feed of knowledgebase articles</phrase>
+    <phrase section="knowledgebase" code="articledetails">Article Details</phrase>
+    <phrase section="knowledgebase" code="answer">Answer</phrase>
+    <phrase section="knowledgebase" code="createdon">Created On: </phrase>
+    <phrase section="knowledgebase" code="articleid">Article ID: </phrase>
+    <phrase section="knowledgebase" code="articleurl">URL: </phrase>
+    <phrase section="knowledgebase" code="author">Author: </phrase>
+    <phrase section="knowledgebase" code="articleerror">ERROR: You do not have the permissions required to view this article, or the article does not exist.</phrase>
+    <phrase section="knowledgebase" code="addcomment">Add Comment</phrase>
+    <phrase section="knowledgebase" code="printarticle">Print Article</phrase>
+    <phrase section="knowledgebase" code="pdfversion">PDF Version</phrase>
+    <phrase section="knowledgebase" code="emailarticle">E-mail Article</phrase>
+    <phrase section="knowledgebase" code="articleoptions">Article Options</phrase>
+    <phrase section="knowledgebase" code="addtofav">Add to Favorites</phrase>
+    <phrase section="knowledgebase" code="answerwashelpful">This article was helpful</phrase>
+    <phrase section="knowledgebase" code="answernothelpful">This article was not helpful</phrase>
+    <phrase section="knowledgebase" code="kbsolution">Article</phrase>
+    <phrase section="knowledgebase" code="kbmaincat">Main Categories</phrase>
+    <phrase section="knowledgebase" code="rsskb">%s - Knowledgebase Articles</phrase>
+    <phrase section="knowledgebase" code="rsskbdesc">Knowledgebase articles provided by %s</phrase>
+
+    <phrase section="ticketemails" code="arintro">Thank you for contacting us. This is an automated response confirming the receipt of your ticket. One of our agents will get back to you as soon as possible. For your records, the details of the ticket are listed below. When replying, please make sure that the ticket ID is kept in the subject line to ensure that your replies are tracked appropriately.</phrase>
+    <phrase section="ticketemails" code="regemailrejectintro">Your ticket has not been accepted into the system. You are required to create an account before you can create any tickets via e-mail. Please register at the following URL:</phrase>
+    <phrase section="ticketemails" code="regemailrejectfooter">Once registered, you will be able to submit tickets directly by sending us an e-mail. We are sorry for any inconvenience this may have caused.</phrase>
+    <phrase section="ticketemails" code="regemailrejectsub">Registration required: Unable to create ticket</phrase>
+    
+    <phrase section="ticketemails" code="validationemailrejectsub">Account not validated: Unable to create ticket</phrase>
+    <phrase section="ticketemails" code="validationmailrejectintro_staff">Your ticket has not been accepted into the system. Although a support desk account exists for your e-mail address, all accounts need to be manually approved by a support desk administrator. Until this has been done, you will not be able to send e-mails to the support desk.</phrase>
+    <phrase section="ticketemails" code="validationmailrejectintro_generic">Your ticket has not been accepted into the system. Although a support desk account exists for your e-mail address, the account has not yet been validated.</phrase>
+    <phrase section="ticketemails" code="validationemailrejectfooter">Once your account has been validated, you will be able to submit tickets directly by sending us an e-mail. We are sorry for any inconvenience this may have caused.</phrase>
+
+  <phrase section="ticketemails" code="arnewsheader">Here are some recent news articles published by </phrase>
+  <phrase section="ticketemails" code="arcreds">Please use the following credentials when accessing your account with us: </phrase>
+    <phrase section="ticketemails" code="articketid">Ticket ID: </phrase>
+    <phrase section="ticketemails" code="arsubject">Subject: </phrase>
+    <phrase section="ticketemails" code="ardepartment">Department: </phrase>
+    <phrase section="ticketemails" code="arpassword">Password: </phrase>
+    <phrase section="ticketemails" code="arstatus">Status: </phrase>
+    <phrase section="ticketemails" code="arpriority">Priority: </phrase>
+    <phrase section="ticketemails" code="aremail">E-mail: </phrase>
+    <phrase section="ticketemails" code="arsubfooter">You can check the status of or reply to this ticket online at: </phrase>
+    <phrase section="ticketemails" code="arfooter">Kind regards,</phrase>
+    <phrase section="ticketemails" code="ticketdetails">Ticket Details</phrase>
+    <phrase section="ticketemails" code="tickethistory">Ticket History</phrase>
+    <phrase section="ticketemails" code="thstaff">Staff</phrase>
+    <phrase section="ticketemails" code="thclient">Client</phrase>
+    <phrase section="ticketemails" code="ththirdparty">Third Party</phrase>
+    <phrase section="ticketemails" code="thattachments">Attachments</phrase>
+    <phrase section="ticketemails" code="threcipient">Recipient</phrase>
+    <phrase section="ticketemails" code="thpostedon">Posted On:</phrase>
+    <phrase section="ticketemails" code="smsfailure">SMS Delivery Report</phrase>
+    <phrase section="ticketemails" code="smsfailured">The SMS message could not be delivered. This could either be due to a failure to connect with the Kayako SMS Gateway, or due to the lack of SMS credits in your account. The exact error is available below:</phrase>
+    <phrase section="ticketemails" code="sdeliverytime">SMS Delivery Time:</phrase>
+    <phrase section="ticketemails" code="sgatewayresult">Gateway Result:</phrase>
+    <phrase section="ticketemails" code="snumber">Cell Number:</phrase>
+    <phrase section="ticketemails" code="smessage">Message:</phrase>
+    <phrase section="ticketemails" code="arlink">Link: </phrase>
+    <phrase section="ticketemails" code="arclickhere">Click Here</phrase>
+    <phrase section="ticketemails" code="acsysintro">This message concerns your ticket #</phrase>
+    <phrase section="ticketemails" code="acsysfooter">Please note that the ticket will automatically be closed within </phrase>
+    <phrase section="ticketemails" code="acsysfooterend"> hours if no response is received from you. The ticket will not be closed in the case that you send another reply.</phrase>
+    <phrase section="ticketemails" code="acsysheader">We have not received any response back from you in </phrase>
+    <phrase section="ticketemails" code="acsysheaderend"> hours, and would like to know if you consider this issue to be resolved. If you have any further questions, simply respond to this e-mail.</phrase>
+    
+    <phrase section="ticketemails" code="acfsysintro">This message is regarding your ticket ID #</phrase>
+    <phrase section="ticketemails" code="acfsysheader">We are changing the status of this ticket to 'Closed' as we have not received a response from you in </phrase>
+    <phrase section="ticketemails" code="acfsysheaderend"> hours. </phrase>
+    <phrase section="ticketemails" code="acfsysfooter">If you have any further questions then do let us know.</phrase>
+
+    <phrase section="tickets" code="dsubmitticketdep"><![CDATA[If you can't find a solution to your problem in our <a href="index.php?_m=knowledgebase&_a=view" id="moduletitle">knowledgebase</a>, you can submit a ticket by selecting the appropriate department below.]]></phrase>
+    <phrase section="tickets" code="xsubmitticketdep"><![CDATA[You can submit a ticket by selecting the appropriate department below.]]></phrase>
+    <phrase section="tickets" code="dsubmitticket"><![CDATA[If you can't find a solution to your problem in our <a href="index.php?_m=knowledgebase&_a=view" id="moduletitle">knowledgebase</a>, you can fill in the fields below with as much detailed information as possible and send it to our agents.]]></phrase>
+    <phrase section="tickets" code="xsubmitticket"><![CDATA[You can fill in the fields below with as much detailed information as possible and send it to our agents.]]></phrase>
+    <phrase section="tickets" code="dsubmitticketdepmb"><![CDATA[If you can't find a solution to your problem in our <a href="user.php?op=menu&tile=faq&_m=knowledgebase&_a=view" id="moduletitle">knowledgebase</a>, you can submit a ticket by selecting the appropriate department below.]]></phrase>
+    <phrase section="tickets" code="dsubmitticketmb"><![CDATA[If you can't find a solution to your problem in our <a href="user.php?op=menu&tile=faq&_m=knowledgebase&_a=view" id="moduletitle">knowledgebase</a>, you can fill the fields below with as detailed information as possible and send it to our agents.]]></phrase>
+    <phrase section="tickets" code="dsubmitticketwhmcs"><![CDATA[If you can't find a solution to your problem in our <a href="knowledgebase.php" id="moduletitle">knowledgebase</a>, you can fill the fields below with as detailed information as possible and send it to our agents.]]></phrase>
+    <phrase section="tickets" code="dsubmitticketconfirm"><![CDATA[Your ticket has been submitted to our department successfully. One of our support agents will get back to you with more information shortly.]]></phrase>
+    <phrase section="tickets" code="tckgeneralinformation">General Information</phrase>
+    <phrase section="tickets" code="ttinformation">Ticket Information</phrase>
+    <phrase section="tickets" code="tfullname">Full Name:</phrase>
+    <phrase section="tickets" code="temail">E-mail:</phrase>
+    <phrase section="tickets" code="tsubject">Subject:</phrase>
+    <phrase section="tickets" code="tdepartment">Department:</phrase>
+    <phrase section="tickets" code="tpriority">Priority:</phrase>
+    <phrase section="tickets" code="tmessage">Message:</phrase>
+    <phrase section="tickets" code="tattachfile">Attach File:</phrase>
+    <phrase section="tickets" code="tmessagedetails">Message Details</phrase>
+    <phrase section="tickets" code="treset">Reset</phrase>
+    <phrase section="tickets" code="selectdepartment">Select Department</phrase>
+    <phrase section="tickets" code="tcknext"><![CDATA[Next &raquo;]]></phrase>
+    <phrase section="tickets" code="tselectdepartment">ERROR: Please select a valid department</phrase>
+    <phrase section="tickets" code="tckinvalidemail">ERROR: Please specify a valid e-mail address</phrase>
+    <phrase section="tickets" code="tregistrationrequired">Registration Required</phrase>
+    <phrase section="tickets" code="tregrequireddesc"><![CDATA[Unable to submit the ticket; you do not have the permissions required to submit tickets on this support desk.]]></phrase>
+    <phrase section="tickets" code="tinvaliduser">ERROR: Invalid user; failed to submit ticket.</phrase>
+    <phrase section="tickets" code="tticketid">Ticket ID:</phrase>
+    <phrase section="tickets" code="tticketlist">Ticket List</phrase>
+    <phrase section="tickets" code="desc_tticketlist">Listed below are the tickets you've submitted in the past. Click on a ticket's subject to view the ticket and its history.</phrase>
+    <phrase section="tickets" code="tnotloggedin">ERROR: You are not logged in</phrase>
+    <phrase section="tickets" code="tlsubject">Subject</phrase>
+    <phrase section="tickets" code="tlticketid">Ticket ID</phrase>
+    <phrase section="tickets" code="tldate">Last Update</phrase>
+    <phrase section="tickets" code="tllastactivity">Last Activity</phrase>
+    <phrase section="tickets" code="tlstatus">Status</phrase>
+    <phrase section="tickets" code="tlpriority">Priority</phrase>
+    <phrase section="tickets" code="tldepartment">Department</phrase>
+    <phrase section="tickets" code="tllastreplier">Last Replier</phrase>
+    <phrase section="tickets" code="pagination">Page %s of %s</phrase>
+    <phrase section="tickets" code="vtconversation">Conversation</phrase>
+    <phrase section="tickets" code="vtdetails">Ticket Details</phrase>
+    <phrase section="tickets" code="vtpostreply">Post Reply</phrase>
+    <phrase section="tickets" code="vtmessage">Message</phrase>
+    <phrase section="tickets" code="vtpost">Post</phrase>
+    <phrase section="tickets" code="vtticketid">Ticket ID: </phrase>
+    <phrase section="tickets" code="vtdepartment">Department: </phrase>
+    <phrase section="tickets" code="vtstatus">Status: </phrase>
+    <phrase section="tickets" code="vtpriority">Priority: </phrase>
+    <phrase section="tickets" code="vtcreatedon">Created On: </phrase>
+    <phrase section="tickets" code="vtlastupdate">Last Update: </phrase>
+    <phrase section="tickets" code="vtnoaccess">ERROR: You do not have access to this ticket.</phrase>
+    <phrase section="tickets" code="vtpostedon">Posted On: </phrase>
+    <phrase section="tickets" code="pryourreply">Your Reply</phrase>
+    <phrase section="tickets" code="prdetails">Details</phrase>
+    <phrase section="tickets" code="vtupdate">Update</phrase>
+    <phrase section="tickets" code="vtattachments">Attachments</phrase>
+    <phrase section="tickets" code="tuploadfile">Upload File(s)</phrase>
+    <phrase section="tickets" code="teditproperties">Edit Properties</phrase>
+    <phrase section="tickets" code="trecipients">Recipients</phrase>
+    <phrase section="tickets" code="trecipientsdesc">You can specify custom recipients in the field below, multiple e-mail addressses can be seperated using empty space or , (comma). The added recipients will only receive updates sent by our agents.</phrase>
+    <phrase section="tickets" code="tinvalidverificationcode">ERROR: Invalid image verification code</phrase>
+    <phrase section="tickets" code="tverifysubm">Verify Submission</phrase>
+    <phrase section="tickets" code="attachmentrestrict">ERROR: Attachment type is not allowed.</phrase>
+    <phrase section="tickets" code="irsloading">Loading knowledgebase suggestions...</phrase>
+    <phrase section="tickets" code="irssuggestions">Knowledgebase suggestions</phrase>
+    <phrase section="tickets" code="irsdesc">The following articles from our knowledgebase might be relevant to what you're looking for.  Please take the time to read them before submitting your ticket.</phrase>
+    <phrase section="tickets" code="irsrelevance">Relevance: </phrase>
+  <phrase section="tickets" code="irsnoresults">No relevant knowledgebase articles found.</phrase>
+    <phrase section="tickets" code="tverifysubdesc">Please enter the text you see in the image at the right into the textbox below. This is required to prevent automated submission of tickets.</phrase>
+
+    <phrase section="lostpassword" code="enteremail">Enter E-mail Address</phrase>
+    <phrase section="lostpassword" code="lregemail">Registered E-mail:</phrase>
+    <phrase section="lostpassword" code="llostpassword">Lost Password</phrase>
+    <phrase section="lostpassword" code="lpass_desc">Please enter your registered e-mail address below and click Submit. You will receive an e-mail with your password shortly.</phrase>
+    <phrase section="lostpassword" code="linvalidemail">ERROR: Invalid e-mail address specified. The e-mail address is not registered.</phrase>
+    <phrase section="lostpassword" code="lpmailsubject"><![CDATA[%s: Your password for our support desk]]></phrase>
+    <phrase section="lostpassword" code="lpmaildesc">Please find the password for your support desk account enclosed. If you did not request that your password be sent to you, please ignore this e-mail.</phrase>
+    <phrase section="lostpassword" code="lpmailfooter">If you have any questions then please let us know,</phrase>
+    <phrase section="lostpassword" code="lpassc_desc">Your password has been sent to you. Please check your e-mail to retrieve it.</phrase>
+    <phrase section="lostpassword" code="lprimaryemail">Primary E-mail</phrase>
+    <phrase section="lostpassword" code="lpassword">Password</phrase>
+
+    <phrase section="changepassword" code="oldpassword">Old Password:</phrase>
+    <phrase section="changepassword" code="newpassword">New Password:</phrase>
+    <phrase section="changepassword" code="newpasswordc">New Password (Confirm):</phrase>
+    <phrase section="changepassword" code="changepdesc">You can change your password by entering your old and new passwords below.</phrase>
+    <phrase section="changepassword" code="changeperror">ERROR: Unable to change password. Please make sure that your old password is correct.</phrase>
+    <phrase section="changepassword" code="changepmatcherr">ERROR: Passwords do not match</phrase>
+    <phrase section="changepassword" code="changepsiderr">ERROR: Invalid session ID detected</phrase>
+    <phrase section="changepassword" code="changepsuccess">Your password has been changed successfully.</phrase>
+
+    <phrase section="emailarticle" code="kemailarticle">E-mail Article</phrase>
+    <phrase section="emailarticle" code="ksendername">Your Name:</phrase>
+    <phrase section="emailarticle" code="kfullname">Receiver Full Name:</phrase>
+    <phrase section="emailarticle" code="kemail">Receiver E-mail:</phrase>
+    <phrase section="emailarticle" code="kclosewindow">Close Window</phrase>
+    <phrase section="emailarticle" code="kemailconfirm">Thank you. An e-mail has been sent to the recipient with a link to this article.</phrase>
+    <phrase section="emailarticle" code="emailarticlesubject">%s Sent By %s</phrase>
+    <phrase section="emailarticle" code="eaintro"> wanted you to have a look at the following knowledgebase article from our support desk:</phrase>
+    <phrase section="emailarticle" code="eafooter">Thank you for your time,</phrase>
+
+    <phrase section="myaccount" code="mafullname">Full Name:</phrase>
+    <phrase section="myaccount" code="maemail">Primary E-mail:</phrase>
+    <phrase section="myaccount" code="maupdate">Update</phrase>
+    <phrase section="myaccount" code="madesc"><![CDATA[You can update your account details by editing the form below. If you wish to change your account password, <a href="index.php?_m=core&_a=changepassword">click here</a>]]></phrase>
+    <phrase section="myaccount" code="maupdateconfirm">Information updated successfully</phrase>
+
+    <phrase section="downloads" code="invaliddlcat">ERROR: Invalid download category</phrase>
+    <phrase section="downloads" code="rssdl">%s - Download Items</phrase>
+    <phrase section="downloads" code="rssdldesc">Download Items Provided By %s</phrase>
+    <phrase section="downloads" code="dlcatpermerror">ERROR: You do not have the permissions required to access this category.</phrase>
+    <phrase section="downloads" code="navdownloads">Downloads</phrase>
+    <phrase section="downloads" code="dlcat">Download Categories</phrase>
+    <phrase section="downloads" code="dlcatdesc">File downloads are categorized. Please select which category you would like to browse. You can also search the downloads library using the search field beside this text.</phrase>
+    <phrase section="downloads" code="downloaditems">Downloads</phrase>
+  <phrase section="downloads" code="dlrssfeedtip">Click here to view an RSS feed of downloads</phrase>
+    <phrase section="downloads" code="dlparentcat">Parent Category</phrase>
+    <phrase section="downloads" code="dlidescription">Description: </phrase>
+    <phrase section="downloads" code="dlitotaldownloads">Total Downloads: </phrase>
+    <phrase section="downloads" code="dlilastmodified">Modified: </phrase>
+    <phrase section="downloads" code="dlifilesize">Size: </phrase>
+    <phrase section="downloads" code="dlidownload">Download</phrase>
+    <phrase section="downloads" code="dlmaincat">Main Categories</phrase>
+    <phrase section="downloads" code="dlierror">ERROR: Invalid Download Item specified</phrase>
+    <phrase section="downloads" code="downloadoptions">Download Options</phrase>
+    <phrase section="downloads" code="dliaddtofav">Add to Favorites</phrase>
+    <phrase section="downloads" code="dlidescriptiond">Description</phrase>
+    <phrase section="downloads" code="downloaddetails">Download Details</phrase>
+    <phrase section="downloads" code="dlifilename">Filename:</phrase>
+    <phrase section="downloads" code="dlicreationd">Creation Date:</phrase>
+    <phrase section="downloads" code="dlitotalcomments"># Comments:</phrase>
+    <phrase section="downloads" code="dlipassword">Password:</phrase>
+    <phrase section="downloads" code="dliaddcomment">Add Comment</phrase>
+    <phrase section="downloads" code="dliinvalidfile">ERROR: Invalid file specified. Make sure the file exists under the files directory.</phrase>
+    <phrase section="downloads" code="dlilink">Link</phrase>
+    <phrase section="downloads" code="dliinvalidpass">ERROR: Invalid password specified</phrase>
+    <phrase section="downloads" code="dlisuccess">Success</phrase>
+    <phrase section="downloads" code="dlmore">more files</phrase>
+
+    <phrase section="newsclient" code="nwfilter">Filter News</phrase>
+  <phrase section="newsclient" code="nwrssfeedtip">Click here to view an RSS feed of news articles</phrase>
+    <phrase section="newsclient" code="nwsubscribe">Subscribe</phrase>
+    <phrase section="newsclient" code="nwentermail">Enter E-mail</phrase>
+    <phrase section="newsclient" code="nwtoday">Today</phrase>
+    <phrase section="newsclient" code="nwthisweek">Current week to date</phrase>
+    <phrase section="newsclient" code="nwlastweek">Last 7 days</phrase>
+    <phrase section="newsclient" code="nwthismonth">Current month to date</phrase>
+    <phrase section="newsclient" code="nwlastmonth">Last 30 days</phrase>
+    <phrase section="newsclient" code="nwthisyear">Current year to date</phrase>
+    <phrase section="newsclient" code="nwviewdesc">Listed below are the latest news items and announcements from our organization. You can filter the news items by time and date by selecting the Filter option from the navigation bar.</phrase>
+    <phrase section="newsclient" code="nwsubvalidateconfirm">Successfully validated as subscriber</phrase>
+    <phrase section="newsclient" code="nwvalidhasherror">ERROR: Invalid validation hash</phrase>
+    <phrase section="newsclient" code="nwsubconfirm">Successfully added as subscriber</phrase>
+    <phrase section="newsclient" code="nwsubemailconfirm">Please check your e-mail for further details on how to activate your account</phrase>
+    <phrase section="newsclient" code="nwsuberror">ERROR: Unable to subscribe. Please make sure that you have specified a valid e-mail address and that you have not already subscribed.</phrase>
+    <phrase section="newsclient" code="nwsubintro">Thank you for subscribing to our news feed. You will need to validate your subscription in order to receive updates. Please click on the link below to activate your subscription.</phrase>
+    <phrase section="newsclient" code="nwsubfooter">Please let us know if we can be of any further assistance,</phrase>
+    <phrase section="newsclient" code="nwsubconintro">Your subscription to our news feed has been confirmed. You will now receive automatic updates whenever a new article is posted. You can unsubscribe at any point in time by clicking on the link below.</phrase>
+    <phrase section="newsclient" code="nwvalidatesubscriptionsub">%s: Validate your news subscription</phrase>
+    <phrase section="newsclient" code="nwsubconfirmsub">%s: News subscription confirmed</phrase>
+    <phrase section="newsclient" code="nwunsubconfirm">Successfully unsubscribed from the news feed</phrase>
+    <phrase section="newsclient" code="nwread">Read</phrase>
+    <phrase section="newsclient" code="nwcomments">Comments</phrase>
+    <phrase section="newsclient" code="nwpostedby">Posted By: </phrase>
+    <phrase section="newsclient" code="nwpostedon">On: </phrase>
+    <phrase section="newsclient" code="nwdetails">Details</phrase>
+    <phrase section="newsclient" code="nwinvalidnewsitem">Invalid news item</phrase>
+    <phrase section="newsclient" code="nwnewsoptions">News Options</phrase>
+    <phrase section="newsclient" code="nwaddcomment">Add Comment</phrase>
+    <phrase section="newsclient" code="nwprint">Print</phrase>
+    <phrase section="newsclient" code="nwpdfversion">PDF Version</phrase>
+    <phrase section="newsclient" code="nwaddtofav">Add to Favorites</phrase>
+    <phrase section="newsclient" code="nwcreatedon">Created On: </phrase>
+    <phrase section="newsclient" code="nwauthor">Author: </phrase>
+    <phrase section="newsclient" code="nwback">Back</phrase>
+    <phrase section="newsclient" code="nwnext">Next</phrase>
+    <phrase section="newsclient" code="mbnewscat">General</phrase>
+    <phrase section="newsclient" code="mbnewscatdesc">General News</phrase>
+</swiftlanguage>

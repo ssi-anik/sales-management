@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/totalItemsForBillInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Total Products"
+        android:textColor="#000000"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/totalPricesForBillInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/totalItemsForBillInformation"
+        android:layout_alignBottom="@+id/totalItemsForBillInformation"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="right"
+        android:text="Total Price"
+        android:textColor="#000000"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/billKeyForBillInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalItemsForBillInformation"
+        android:layout_below="@+id/totalItemsForBillInformation"
+        android:text="Bill key"
+        android:textColor="#000000"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/companyNameForForBillInformation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/totalItemsForBillInformation"
+        android:layout_alignStart="@+id/totalItemsForBillInformation"
+        android:layout_below="@+id/totalItemsForBillInformation"
+        android:layout_marginBottom="3dp"
+        android:text="Company name"
+        android:textColor="#000000"/>
+
+</RelativeLayout>
