@@ -1,4 +1,4 @@
-## Sales Management
+## Sales Management:
 
 This is a sales management project where admin can add new products, check for the orders. Track the agents. This can be done using the web browser. Here, in this project, 4 modules are available. 
 
@@ -8,11 +8,11 @@ This is a sales management project where admin can add new products, check for t
 4. Website for admin.
 
 
-### Technologies
+### Technologies:
 1. Laravel-4.2.*.
 2. Java.
 
-### To-Do
+### To-Do:
 1. On Website and API
   * Migrate your database.
   * Populate your database through admin panel
