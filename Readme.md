@@ -1,5 +1,16 @@
 ## Sales Management
 
+---
+
+Disclaimer: As I can see that people are putting star and forking the project. This was my early Laravel (L4.2) days project back in early 2015. The worst you'll find here. Pardon me and change according to your need. 
+<br/>
+Regards, 
+<br/>
+the **worst** developer. :facepalm:
+
+---
+
+
 This is a sales management project where admin can add new products, check for the orders. Track the agents. This can be done using the web browser. Here, in this project, 4 modules are available. 
 
 1. Android application for Agents
